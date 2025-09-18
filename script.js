@@ -13,11 +13,11 @@ function Random(){
         title.textContent='Draw';
     }
 
-    if(rand1 < rand2){
+    else if(rand1 < rand2){
         title.textContent='Player 2 Wins!';
     }
 
-    if(rand1 > rand2){
+    else if(rand1 > rand2){
         title.textContent='Player 1 Wins!';
     }
 }
